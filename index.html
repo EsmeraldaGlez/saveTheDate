@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <title>E&J</title>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="css/style.css">
+    <title>Document</title>
 </head>
+<header>
+   <img src="images/4.svg">
+   <p>Save our date! </p>
+</header>
+<body >
 
-<body>
-    <header>
-       <p>Save Our Date! </p>
-       
-    </header>
-   
-<div class="main">
-  Viernes 21 de Octubre
-    <div class="slider">
+    <section class="slider">
     
         <div class="slideshow-container">
 
@@ -31,52 +28,47 @@
             <div class="mySlides fade">
               <img src="./images/img3.jpg" style="width:100%"> 
             </div>
-            
-            </div>
-            <br>
-            
             <div style="text-align:center; display:none">
-              <span class="dot"></span> 
-              <span class="dot"></span> 
-              <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+            
             </div>
+    </section>
+    <section class="fecha">
+        
+        <img src="images/2082331.svg">
+       <div class="text-fecha"><p> Viernes 21 de Octubre </p></div> 
+        
+    </section>
 
-            <div class="date">
-              
-               <p>Viernes 21 de Octubre del 2022</p>
-            </div>
-            <div class="ubicacion">
-                <a href="maps.com" target="_blank"><img src="./images/Mapa2.PNG"></a>
-            </div>
+    <section class="mapa" style="margin-top:10% ;">
+        <a href="https://www.google.com.mx/maps/place/Hacienda+Don+Julio/@32.4950332,-116.9425623,17z/data=!3m1!4b1!4m5!3m4!1s0x80d9386042b1f6a3:0x1427b74dbd6f38b8!8m2!3d32.4950287!4d-116.9403683" target="_blank"><img src="./images/Mapa2.PNG"></a>
+    </section>
 
-            <div class="cuenta-regresiva">
-                <div class="item">
-                    <div id="dias"></div>
-                    <div class="text">Dias</div>
-                </div>
-                <div class="item" >
-                    <div id="horas"></div>
-                    <div class="text">Horas</div>
-                </div>
-                <div class="item">
-                    <div id="minutos"></div>
-                    <div class="text">Minutos</div>
-                </div>
-                <div class="item">
-                    <div id="segundos"></div>
-                    <div class="text">Segundos</div>
-                </div>
-            </div>
-    </div>    
-   
-    <div class="footer">
-      
-        <p>Te esperamos, no faltes!</p>
-     
-    </div>
-</div>
+    <section class="cuenta-regresiva">
+        <div class="item">
+            <div id="dias"></div>
+            <div class="text">Dias</div>
+        </div>
+        <div class="item" >
+            <div id="horas"></div>
+            <div class="text">Horas</div>
+        </div>
+        <div class="item">
+            <div id="minutos"></div>
+            <div class="text">Minutos</div>
+        </div>
+        <div class="item">
+            <div id="segundos"></div>
+            <div class="text">Segundos</div>
+        </div>
+    </section>
 
-
-  <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
+<footer>
+    Tu presencia es muy importante para nosotros, no faltes!
+</footer>
 </html>
