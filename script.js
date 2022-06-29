@@ -28,7 +28,7 @@ function updateCountdown() {
     const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
     const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
     const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
-    // Thanks Pablo Monteserín (https://pablomonteserin.com/cuenta-regresiva/)
+  
 
     // Render
     SPAN_DAYS.textContent = REMAINING_DAYS ;
@@ -36,7 +36,6 @@ function updateCountdown() {
     SPAN_MINUTES.textContent = REMAINING_MINUTES;
     SPAN_SECONDS.textContent = REMAINING_SECONDS; 
 }
-
 //===
 // INIT
 //===
@@ -62,5 +61,5 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
